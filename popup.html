@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      width: 220px;
+      padding: 16px;
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 13px;
+      color: #333;
+    }
+    h3 {
+      font-size: 15px;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    #status {
+      font-size: 12px;
+      margin-bottom: 12px;
+      padding: 4px 8px;
+      border-radius: 4px;
+      background: #f0fff4;
+      color: #28a745;
+      font-weight: 600;
+    }
+    #status.off { background: #fff3f3; color: #999; }
+    button {
+      padding: 9px 0;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      width: 100%;
+      font-size: 13px;
+    }
+    .btn-off { background: #dc3545; color: white; }
+    .btn-on  { background: #28a745; color: white; }
+    .hint {
+      font-size: 10px;
+      color: #999;
+      margin-top: 12px;
+      line-height: 1.5;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h3>🛡️ SpamGuard AI</h3>
+  <div id="status">Shield is ACTIVE</div>
+  <button id="toggleBtn" class="btn-off">Turn OFF</button>
+  <p class="hint">ML + AI hybrid spam detection<br>Works on Gmail &amp; Outlook</p>
+  <script src="popup.js"></script>
+</body>
+</html>
