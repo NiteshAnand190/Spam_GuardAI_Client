@@ -81,12 +81,6 @@ Most legitimate email (verified brands, frequent contacts) is decided **on-devic
 
 ---
 
-## Backend & source code
-
-- **Backend repo (API + ML model):** https://github.com/NiteshAnand190/spamguard-ai
-- **Live API:** https://niteshanand-spamguard-api.hf.space
-
----
 
 ## Troubleshooting
 
